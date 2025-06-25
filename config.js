@@ -1,0 +1,235 @@
+var config = {
+    // style: 'mapbox://styles/mapbox/streets-v12',
+    // leave commented to use Mapbox Standard Style
+    style: 'mapbox://styles/dogatmn/cm4v9fem6000p01sf12f769y5/draft',
+    accessToken: 'pk.eyJ1IjoiZG9nYXRtbiIsImEiOiJjbHlyMTJmcXgwMjQ3MmtzbTRsdm1pejdsIn0.vcEjL7lt8OoOPMP5o1PM6g',
+    showMarkers: false,
+    markerColor: '#ff70ab',
+    //projection: 'equirectangular',
+    //Read more about available projections here
+    //https://docs.mapbox.com/mapbox-gl-js/example/projections/
+    inset: true,
+    insetOptions: {
+        markerColor: '#ff70ab'
+    },
+    insetPosition: 'bottom-right',
+    theme: 'light',
+    use3dTerrain: false, //set true for enabling 3D maps.
+    auto: false,
+    title: 'İstanbul Limanı Galata Rıhtımı / Port of İstanbul',
+    subtitle: '',
+    byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
+    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    chapters: [
+        {
+            id: '1',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [28.980,41.024],
+                zoom: 11.2,
+                pitch: 65,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '2',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [29.046,40.903],
+                zoom: 16,
+                pitch: 65,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '3',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [29.029,40.939],
+                zoom: 16,
+                pitch: 20,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '4',
+            alignment: 'centered',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [29.007,40.972],
+                zoom: 16,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+              },
+             {
+            id: '5',
+            alignment: 'centered',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [28.996,41.000],
+                zoom: 16,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+             },
+             {
+            id: '6',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/yB8BR13d/MEF-AAP-027-BAP-2025-06-20-13-44-21.png',
+            description: '',
+            location: {
+                center: [28.982,41.024],
+                zoom: 16,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+            },
+             {
+            id: '7',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/MySJQnJP/MEF-AAP-027-BAP-2025-06-20-14-11-03.png',
+            description: '',
+            location: {
+                center: [28.982,41.024],
+                zoom: 16,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+    ]
+};
